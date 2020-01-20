@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .App {
+    text-align: left;  
+    color: black;
+    height: calc(80vh-nav);       
+    nav {
+      display: flex;  
+      justify-content: space-around;  
+      align-items: center;
+      min-height: 10vh;
+      background: black;  
+      ul {
+        display: flex; 
+        width: 60%;
+        justify-content: space-around;
+        align-items: center; 
+        list-style: none;  
+        li{
+          list-style: none; 
+          a{
+            text-decoration: none; 
+            color: orange;
+            font-size: 20px;  
+          } 
+        }
+      }
+    }
+  }
+}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+ 
+
+
+
+
+
+
